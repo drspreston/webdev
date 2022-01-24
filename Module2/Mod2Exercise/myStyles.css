@@ -1,4 +1,33 @@
 /*Your style will go here*/
 body{
     background-color: darkgray;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+p{
+    font-size: 20pt;
+    color: darkslategray;
+}
+
+h1{
+    color:#5c0c1c;
+    font-weight: bolder;
+}
+
+h2{
+    color:rgb(36, 34, 33);
+    background-color: lightslategrey;    
+}
+
+.boldWord{
+    font-weight: bolder;
+}
+
+.standout{
+    background-image: linear-gradient(to left, violet, purple);
+    color: #242323;
+    font-size: 26pt;
+    font-weight: bolder;
+    text-align: center;
 }
