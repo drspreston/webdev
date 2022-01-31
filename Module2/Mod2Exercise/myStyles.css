@@ -2,7 +2,6 @@
 body{
     background-color: darkgray;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
 }
 
 p{
@@ -30,4 +29,53 @@ h2{
     font-size: 26pt;
     font-weight: bolder;
     text-align: center;
+}
+
+/*The following styles is for file listing6_2.html*/
+.rightAlign{
+    text-align: right;
+    background-color: white;
+}
+
+.centerAlign{
+    text-align: center;
+}
+
+.leftAlign{
+    text-align: left;
+}
+
+#tblHeader{
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color:crimson;
+    font-size: 24pt; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+.preBackColor{
+    background-color: rgb(173, 101, 7);
+    width: 40%;
+    float: right;
+    font-size: 12pt;
+}
+
+/*lesson 6 page 162 - 3-column layout*/
+article{
+    column-count: 3;
+    column-gap: 21px;    
+}
+h1{
+    text-align: center;
+    column-span: all;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+footer{
+    column-span: all;
 }
