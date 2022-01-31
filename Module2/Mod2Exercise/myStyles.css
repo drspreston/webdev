@@ -62,20 +62,23 @@ h2{
 }
 
 /*lesson 6 page 162 - 3-column layout*/
-article{
+.threeColArticle{
     column-count: 3;
-    column-gap: 21px;    
+    column-gap: 21px;  
+    column-rule-width: 1px; 
+    column-rule-style: solid;
+    column-rule-color: black;
 }
-h1{
+.head1{
     text-align: center;
     column-span: all;
 }
 
-p{
+.para{
     margin-top: 0px;
     margin-bottom: 12px;
 }
 
-footer{
+.footer1{
     column-span: all;
 }
