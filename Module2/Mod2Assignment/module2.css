@@ -12,8 +12,7 @@ body{
 
 /*navigation style*/
 .navbar {
-    overflow: hidden;    
-    position: fixed;
+    overflow: hidden;
     top: 80px;
     width: 100%;
   }
